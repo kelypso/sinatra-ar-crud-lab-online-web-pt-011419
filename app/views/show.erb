@@ -1,4 +1,5 @@
 <h1>Current Article</h1>
 <form method="POST" action="/articles/<%= @article.id %>">
-  <% %>
+  <input type="hidden" id="hidden" name="_method" value="delete">
+  <input type="submit" value="delete">
 </form>
