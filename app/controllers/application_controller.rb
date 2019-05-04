@@ -40,4 +40,8 @@ class ApplicationController < Sinatra::Base
     @article.update(title: params[:title], content: params[:content])
     erb :show
   end
+  
+  delete '/articles/:id' do
+    
+  end
 end
